@@ -48,10 +48,11 @@
 					<li><a href="#parf_3">p&aacute;rrafo3</a></li>
 					<li><a href="#parf_4">p&aacute;rrafo4</a></li>
 				</ul>
+</li>
 	
 
 	
-<details open="close">
+<details>
 	<summary>Es una pagina sobre control industrial de diferentes fabricantes</summary>
 		<p>Sistema de control ABB</p>
 		<p>Sistema de control Yokogawa</p>
@@ -118,16 +119,17 @@ I wish you a pleasant read and look forward to your feedback.
 With kind regards, Günter Herz Procontrol P14 Evolution Manager  ABB Power Generation
     Procontrol P14 is a complete power plant control system with a simple and flexible architecture that enables customers all over the world to meet the diverse operating and business needs of their markets. </p>
  <img src="http://www02.abb.com/global/abbzh/abbzh252.nsf/bf177942f19f4a98c1257148003b7a0a/8f503a1b9869cc4dc1256b0400552aa9/$FILE/ABB_standard.jpg.2/ABB_standard.jpg" alt= "logo" >
-<div>
 
-<a name="#parf_3">p&aacute;rrafo3</a><p>Antes de empezar a programar con STEP 5 defina los siguientes puntos:  una parte o también todos los nombres de ficheros utilizados del programa de usuario,  uno o varios directorios de trabajo donde almacenar todos los ficheros,  parámetros específicos del proyecto (como es el modo de representación) o el modo de operación,
-Estos ajustes deben llevarse a cabo una sola vez en STEP 5. Indicando una vez las características del directorio en el que se deben almacenar los ficheros correspondientes a un proyecto, facilita la organización de su trabajo de programación. STEP 5 copia todos estos ajustes en un fichero de proyecto (*PJ.INI) que se puede copiar, y que por lo tanto es transportable. Con ello se encuentra a disposición un índice de todos los datos relevantes de un proyecto.
-Los ajustes pueden modificarse en todo momento y adaptarse a nuevas condiciones. Al cargar un fichero de proyecto semejante, dichos datos están disponibles de inmediato, pudiéndose comenzar con la programación sin tener que ajustarlos nuevamente.
-La figura 4-1 indica cómo están organizados el fichero de proyecto y los ficheros de programa correspondientes. El fichero de proyecto se encuentra en el mismo directorio de trabajo que los ficheros. Los ajustes que contiene el fichero de proyecto aluden a estos ficheros. Una excepción son los ficheros de impresora y el fichero de caminos. Estos se encuentran siempre en el directorio del sistema S5_SYS, y después de una modificación, en el directorio S5_S5HOME.
-Fichero > Proyecto > Ajustar F4. Ajustar todos los parámetros necesarios para un proyecto seleccionable. Dichos parámetros son:
+
+<a name="#parf_3">p&aacute;rrafo3</a>
+	  <p>Antes de empezar a programar con STEP 5 defina los siguientes puntos:  una parte o también todos los nombres de ficheros utilizados del programa de usuario,  uno o varios directorios de trabajo donde almacenar todos los ficheros,  parámetros específicos del proyecto (como es el modo de representación) o el modo de operación,
+	Estos ajustes deben llevarse a cabo una sola vez en STEP 5. Indicando una vez las características del directorio en el que se deben almacenar los ficheros correspondientes a un proyecto, facilita la organización de su trabajo de programación. STEP 5 copia todos estos ajustes en un fichero de proyecto (*PJ.INI) que se puede copiar, y que por lo tanto es transportable. Con ello se encuentra a disposición un índice de todos los datos relevantes de un proyecto.
+	Los ajustes pueden modificarse en todo momento y adaptarse a nuevas condiciones. Al cargar un fichero de proyecto semejante, dichos datos están disponibles de inmediato, pudiéndose comenzar con la programación sin tener que ajustarlos nuevamente.
+	La figura 4-1 indica cómo están organizados el fichero de proyecto y los ficheros de programa correspondientes. El fichero de proyecto se encuentra en el mismo directorio de trabajo que los ficheros. Los ajustes que contiene el fichero de proyecto aluden a estos ficheros. Una excepción son los ficheros de impresora y el fichero de caminos. Estos se encuentran siempre en el directorio del sistema S5_SYS, y después de una modificación, en el directorio S5_S5HOME.
+	F Ajustar todos los parámetros necesarios para un proyecto seleccionable. Dichos parámetros son:
 – Ficheros que pertenecen a un proyecto. Estos ficheros están ajustados, por lo general, en las casillas de petición y de selección o de editores, respectivamente, en las que deben ser activados.
 – Parámetros, como p. ej. símbolos, modo de representación (KOP, FUP, AWL), etc. Una vez efectuados los ajustes para un proyecto se puede elaborar sólo éste.  Fichero > Proyecto > Cargar... F10. Se cargan todos los ajustes para un proyecto seleccionable. Una vez cargado el proyecto se ofrecen sólo los ficheros pertenecientes a este proyecto para proceder a su elaboración.  Fichero > Proyecto > Grabar. Se guardan todos los ajustes en el fichero específico del proyecto.
- Fichero > Proyecto > Grabar como... Se aseguran todos los ajustes en un fichero específico del proyecto (nuevo) seleccionable.  Fichero > Proyecto > Archivar... Todos los ficheros de proyecto o una selección de los mismos se graba en forma comprimida en un fichero *PX.ACS.  Fichero > Proyecto > Desarchivar... Grabar en forma comprimida todos los ficheros de proyecto o una selección de los mismos desde un fichero *PX.ACS.
+guran todos los ajustes en un fichero específico del proyecto (nuevo) selecci ficheros de proyecto o una selección de los mismos se graba en forma comprimida en un fichero *PX.ACS.  Fichero > Proyecto > Desarchivar... Grabar en forma comprimida todos los ficheros de proyecto o una selección de los mismos desde un fichero *PX.ACS.
  Human Interface Station (HIS)
 An HIS serves as a human interface for operation,
 monitoring, and engineering.  Software packages installed
@@ -145,7 +147,7 @@ tions, see publications GS 33Q06B40-31E and GS
 33Q06B50-31E for Human Interface Stations and GS
 33Q02C10-31E for Standard Operation and Monitoring
 Function.
-? Field Control Station (FCS)
+ld Control Station (FCS)
 The FCS performs process control and manages commu-
 nications with subsystems such as PLCs.  Two types of
 field control stations for Vnet/IP and FIO are available:
