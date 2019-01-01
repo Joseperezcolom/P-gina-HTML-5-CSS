@@ -218,6 +218,26 @@ summary {
   display: block;
 
 }
+
+
+<style> 
+	div {
+	  width: 100px;
+	  height: 100px;
+	  background: red;
+	  position :relative;
+	  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+	  animation: mymove 5s infinite;
+	}
+
+	/* Standard syntax */
+	@keyframes mymove {
+	  from {top: 800px;}
+	  to {top: 1000px;}
+	}
+	</style>
+
+
 $pathNumber: 18;
 
 // The color that will be at the beginning and the end of the loop.
