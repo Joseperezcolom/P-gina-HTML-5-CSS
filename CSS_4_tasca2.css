@@ -104,3 +104,6 @@ table#t01 th {
 	background-color: black;
 
 } 
+summary {
+  display: block;
+}
